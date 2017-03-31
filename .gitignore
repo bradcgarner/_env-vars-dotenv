@@ -1,6 +1,5 @@
 node_modules
 .DS_Store
 
-
-# Un-comment the following line
+# ==>> UN-COMMENT THE FOLLOWING LINE! <<==
 # .env
