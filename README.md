@@ -4,9 +4,22 @@ Demo standard (real) environment variables and the dotenv package https://www.np
 
 ## Environment Variables
 
-### "Standard" Environment Variables can bet set by:
-	- Run `export SECRET=password` on the command line EG `SECRET=password node server.js`
-	- Or Add `export SECRET=password` to your `~/.bash_profile`
+### "Standard" Environment Variables can set set by:
+- Single execution: 
+```
+SECRET=abracadabra node server.js
+```
+
+- Current session:
+```
+export SECRET=password
+node server.js
+```
+
+- Every session the follow to your `~/.bash_profile
+```
+export SECRET=abracadabra
+````
 
 ### The `dotenv` package
 To ease the use in your local development you can use a the dotenv package. This repo demos the usage
