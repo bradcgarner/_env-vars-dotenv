@@ -1,3 +1,4 @@
+'use strict';
 
 require('dotenv').config(); // loads `./.env` by default
 
